@@ -19,7 +19,7 @@ const option = {
     },
     server: [
       {
-        url: "http://localhost:5000",
+        url: "https://shorturlnodejs.herokuapp.com",
       },
     ]
   },
