@@ -47,9 +47,6 @@ app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({ extended: true }));
 app.use(express.json());
 
-app.get('/',(res,req)=>{
-  res.send("hello")
-})
 
 app.use("/api/getUrl", require("./routes/geturl"));
 app.use("/api/GetAllShortUrl", require("./routes/getAllUrl"));
