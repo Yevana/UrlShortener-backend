@@ -2,7 +2,7 @@
   "name": "urlshortener",
   "version": "1.0.0",
   "description": "",
-  "main": "urlserver.js",
+  "main": "server.js",
   "scripts": {
     "start": "npm server",
     "dev": "nodemon server"
