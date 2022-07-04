@@ -8,7 +8,7 @@ const connectDB = require("./config/db");
 connectDB();
 const cors = require("cors");
 
-const PORT = process.env.port || 5000;
+const PORT = process.env.PORT || 5000;
 const option = {
   definition: {
     openapi: "3.0.0",
